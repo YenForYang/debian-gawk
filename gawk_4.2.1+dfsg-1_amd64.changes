@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Fri, 14 Sep 2018 18:25:25 +0300
+Source: gawk
+Binary: gawk
+Built-For-Profiles: nobiarch nocheck nodoc
+Architecture: amd64
+Version: 1:4.2.1+dfsg-1
+Distribution: unstable
+Urgency: low
+Maintainer: Adrian Bunk <bunk@debian.org>
+Changed-By: Adrian Bunk <bunk@debian.org>
+Description:
+ gawk       - GNU awk, a pattern scanning and processing language
+Closes: 907552
+Changes:
+ gawk (1:4.2.1+dfsg-1) unstable; urgency=low
+ .
+   * New upstream release. (Closes: #907552)
+   * Build-depend on locales-all instead of generating own locales.
+Checksums-Sha1:
+ 995c341a1dfe95d0e8e91c742389287cb4322064 1359812 gawk-dbgsym_4.2.1+dfsg-1_amd64.deb
+ d507527dbf8756a905a35bf6fa9d8275ca168394 5877 gawk_4.2.1+dfsg-1_amd64.buildinfo
+ 2d7bc666616539a970bb9620a1bbb1f2d7a57f89 1146900 gawk_4.2.1+dfsg-1_amd64.deb
+Checksums-Sha256:
+ 5ef93a865924014b0de6374da0ff45796da3ffb47ac44bedc831d3f423f47817 1359812 gawk-dbgsym_4.2.1+dfsg-1_amd64.deb
+ 2754af0319ab163efd8dd824d48987b255ec51d0c4b621b4487128774592554e 5877 gawk_4.2.1+dfsg-1_amd64.buildinfo
+ 12cb3aa7f6aebfe3915b1cc0cd59f663538eaa1c64259443b1bde62e2cd92c92 1146900 gawk_4.2.1+dfsg-1_amd64.deb
+Files:
+ b2fd96b0bdc682b4ae3923f14fe292d8 1359812 debug optional gawk-dbgsym_4.2.1+dfsg-1_amd64.deb
+ 39c3e28798ffeebc72d8983056077b84 5877 interpreters optional gawk_4.2.1+dfsg-1_amd64.buildinfo
+ dfdd497c4c7df2816a15e6b85967e4a7 1146900 interpreters optional gawk_4.2.1+dfsg-1_amd64.deb
